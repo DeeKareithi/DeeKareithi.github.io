@@ -6,19 +6,17 @@
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
-    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
-    <script src="https://unpkg.com/scrollama"></script>
-    <style>
+       <style>
         body {
             margin:0; 
             padding:0; 
             font-family: sans-serif;
         }
-        a, a:hover, a:visited {
-            color: #0071bc;
-        }
+        
+		
         #map {
-            top:0; 
+            position: absolute
+			top:0; 
             height: 100vh;
             width:100vw;
             position: fixed;
@@ -94,14 +92,12 @@
 <body>
 
 <div id="map"></div>
-<div id="story"></div>
 <script src="./config.js"></script>
-    <div id='map'></div>
-    <script>
+<script>
     mapboxgl.accessToken = 'pk.eyJ1IjoiZG9yY2thciIsImEiOiJjazZueHkwamIweDNuM21xc2w3bjdtcjhmIn0.eUutJYaZX6zulW6zti9T2Q'; // replace this with your access token
     var map = new mapboxgl.Map({
       container: 'map',
-      style: 'your-style-URL-here', // replace this with your style URL
+      style: 'mapbox://styles/dorckar/ck6nyrdnk1fvv1jn3ryegowfb', // replace this with your style URL
       center: [-87.661557, 41.893748],
       zoom: 10.7
     });
