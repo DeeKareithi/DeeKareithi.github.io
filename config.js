@@ -44,7 +44,7 @@ var config = {
                 center: [3.4, 6.4],
                 zoom: 15.5,
                 pitch: 60,
-                bearing: 45
+                bearing: -45
             },
             onChapterEnter: [
                 {
