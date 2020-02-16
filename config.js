@@ -17,14 +17,14 @@ var config = {
             description: 'Over the past 4 years, road accidents in Lagos have been on the increase. THis has subsequently led to an increase in deaths in the State, as shown below.',
 			
             location: {
-                center: [3.4, 6.4],
-                zoom: 8.5,
+				center: [8, 8.4], // starting position
+				zoom: 5.9, // starting zoom
                 pitch: 60,
                 bearing: 0
             },
             onChapterEnter: [
                 {
-                    layer: 'nigeria_layer',
+                    layer: 'lagos_boundaries',
                     opacity: 1
                 }
             ],
@@ -36,32 +36,52 @@ var config = {
             ]
         },
         {
-            id: 'other-identifier',
+            id: 'Lagos Hospitals',
             title: 'Health Facilities in Lagos',
-            image: '',
+            image: 'https://thewillnigeria.com/news/wp-content/uploads/2017/10/hospital3-655x420.jpg',
             description: 'After getting an accident in Lagos, we ask ourselves, what are the closest health facilities that those injured can access? What Options do they have?',
             location: {
-                center: [-77.020636, 38.886900],
-                zoom: 13.5,
+                center: [3.4, 6.4],
+                zoom: 8.5,
                 pitch: 60,
-                bearing: -43.2
+                bearing: 45
             },
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'health-facilities-in-lagos',
+                    opacity: 2
+                }
+            ],
+            onChapterExit: [
+                 {
+                     layer: 'health-facilities-in-lagos',
+                     opacity: 0.25
+                }
+            ]
         },
         {
-            id: 'other-identifier',
+            id: 'Traffic_volumes_Lagos',
             title: 'Traffic in Lagos',
             image: '',
             description: 'The accident victim needs to be taken to the nearest health facility to recieve firts aid. What is the fastest way to get there? Which routes should they avoid?',
             location: {
-                center: [-77.020636, 38.886900],
-                zoom: 13.5,
+                center: [3.4, 6.4],
+                zoom: 12.5,
                 pitch: 60,
-                bearing: -43.2
+                bearing: 12
             },
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'traffic',
+                    opacity: 2
+                }
+            ],
+            onChapterExit: [
+                 {
+                     layer: 'traffic',
+                     opacity: 0.25
+                }
+            ]
         }
     ]
 };
