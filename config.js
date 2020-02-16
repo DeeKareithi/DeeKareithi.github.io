@@ -2,7 +2,7 @@ var config = {
     style: 'mapbox://styles/mapbox/dark-v10',
     accessToken: 'pk.eyJ1IjoiZG9yY2thciIsImEiOiJjazZueHkwamIweDNuM21xc2w3bjdtcjhmIn0.eUutJYaZX6zulW6zti9T2Q',
     showMarkers: true,
-    theme: 'dark',
+    theme: 'light',
     alignment: 'right',
     title: 'Access to Healthcare after an Accident in Lagos - CcHUB Design Lab Showcase',
 	    subtitle: 'How easy it to access healthcare after getting an accident in Lagos?',
