@@ -1,7 +1,7 @@
 var config = {
     style: 'mapbox://styles/branigan/cjzsvonse027m1co4nkxp13b3',
     accessToken: 'pk.eyJ1IjoiZG9yY2thciIsImEiOiJjazZueHkwamIweDNuM21xc2w3bjdtcjhmIn0.eUutJYaZX6zulW6zti9T2Q',
-    showMarkers: true,
+    showMarkers: false,
     theme: 'dark',
     alignment: 'right',
     title: 'Access to Healthcare after an Accident in Lagos - CcHUB Design Lab Showcase',
@@ -42,7 +42,7 @@ var config = {
             description: 'After getting an accident in Lagos, we ask ourselves, what are the closest health facilities that those injured can access? What Options do they have?',
             location: {
                 center: [3.4, 6.4],
-                zoom: 9.5,
+                zoom: 15.5,
                 pitch: 60,
                 bearing: 45
             },
@@ -66,7 +66,7 @@ var config = {
             description: 'The accident victim needs to be taken to the nearest health facility to recieve firts aid. What is the fastest way to get there? Which routes should they avoid?',
             location: {
                 center: [3.4, 6.4],
-                zoom: 12.5,
+                zoom: 15.5,
                 pitch: 60,
                 bearing: 12
             },
@@ -82,6 +82,33 @@ var config = {
                      opacity: 0
                 }
             ]
-        }
+        },
+		 {
+            id: 'Lagos Showcase Map',
+            title: 'Conclusion',
+            image: '',
+
+            description: 'So, what is the take home?.',
+			
+            location: {
+				center: [8, 8.4], // starting position
+				zoom: 5.9, // starting zoom
+                pitch: 60,
+                bearing: 0
+            },
+            onChapterEnter: [
+                {
+                    layer: 'lagos_boundaries',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                 {
+                     layer: 'lagos_boundaries',
+                     opacity: 0
+                }
+            ]
+        },
+
     ]
 };
