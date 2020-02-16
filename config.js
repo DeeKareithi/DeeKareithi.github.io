@@ -49,7 +49,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'health-facilities-in-lagos',
-                    opacity: 1
+                    opacity: 2
                 }
             ],
             onChapterExit: [
@@ -73,7 +73,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'traffic',
-                    opacity: 1
+                    opacity: 2
                 }
             ],
             onChapterExit: [
