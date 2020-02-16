@@ -1,11 +1,11 @@
 var config = {
-    style: 'mapbox://styles/mapbox/dark-v10',
+    style: 'mapbox://styles/branigan/cjzsvonse027m1co4nkxp13b3',
     accessToken: 'pk.eyJ1IjoiZG9yY2thciIsImEiOiJjazZueHkwamIweDNuM21xc2w3bjdtcjhmIn0.eUutJYaZX6zulW6zti9T2Q',
     showMarkers: true,
-    theme: 'light',
+    theme: 'dark',
     alignment: 'right',
     title: 'Access to Healthcare after an Accident in Lagos - CcHUB Design Lab Showcase',
-	    subtitle: 'How easy it to access healthcare after getting a road accident in Lagos?',
+	    subtitle: 'How easy it to access healthcare after getting an accident in Lagos?',
     byline: 'By Dorcas Kareithi and Steven Karera',
     footer: 'Data Source: WorldBank Data, Nigeria Watch data and Grid3 Data <a href https://grid3.gov.ng/datasets. /a>',
     chapters: [
@@ -31,7 +31,7 @@ var config = {
             onChapterExit: [
                  {
                      layer: 'lagos_boundaries',
-                     opacity: 0.25
+                     opacity: 0
                 }
             ]
         },
@@ -42,20 +42,20 @@ var config = {
             description: 'After getting an accident in Lagos, we ask ourselves, what are the closest health facilities that those injured can access? What Options do they have?',
             location: {
                 center: [3.4, 6.4],
-                zoom: 8.5,
+                zoom: 9.5,
                 pitch: 60,
-                bearing: -45
+                bearing: 45
             },
             onChapterEnter: [
                 {
                     layer: 'health-facilities-in-lagos',
-                    opacity: 2
+                    opacity: 0.8
                 }
             ],
             onChapterExit: [
-                 {
-                     layer: 'health-facilities-in-lagos',
-                     opacity: 0.25
+                {
+                    layer: 'health-facilities-in-lagos',
+                    opacity: 0
                 }
             ]
         },
@@ -73,13 +73,13 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'traffic',
-                    opacity: 2
+                    opacity: 0.8
                 }
             ],
             onChapterExit: [
                  {
                      layer: 'traffic',
-                     opacity: 0.25
+                     opacity: 0
                 }
             ]
         }
