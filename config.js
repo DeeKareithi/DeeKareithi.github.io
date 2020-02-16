@@ -5,7 +5,7 @@ var config = {
     theme: 'light',
     alignment: 'right',
     title: 'Access to Healthcare after an Accident in Lagos - CcHUB Design Lab Showcase',
-	    subtitle: 'How easy it to access healthcare after getting an accident in Lagos?',
+	    subtitle: 'How easy it to access healthcare after getting a road accident in Lagos?',
     byline: 'By Dorcas Kareithi and Steven Karera',
     footer: 'Data Source: WorldBank Data, Nigeria Watch data and Grid3 Data <a href https://grid3.gov.ng/datasets. /a>',
     chapters: [
@@ -44,7 +44,7 @@ var config = {
                 center: [3.4, 6.4],
                 zoom: 8.5,
                 pitch: 60,
-                bearing: 45
+                bearing: -45
             },
             onChapterEnter: [
                 {
