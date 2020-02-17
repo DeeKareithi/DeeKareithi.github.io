@@ -69,10 +69,10 @@ var config = {
             description: 'After getting an accident in Lagos, we ask ourselves, what are the closest health facilities that those injured can access? What Options do they have? Lagos state has a total of 1,438 human health facilities, according to data collected by Grid3. Most of these are private owned clinics as shown above'
 			,
             location: {
-                center: [3.93338, 6.46770],
-                zoom: 12.57,
+                center: [3.323377, 6.507874],
+                zoom: 12.74,
                 pitch: 45,
-                bearing: -0
+                bearing: -18.31
             },
             onChapterEnter: [
                 {
