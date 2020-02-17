@@ -26,7 +26,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'lagos_boundaries',
-                    opacity: 0.2
+                    opacity: 1
                 }
             ],
             onChapterExit: [
@@ -52,7 +52,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'lagos_boundaries',
-                    opacity: 0.8
+                    opacity: 1
                 }
             ],
             onChapterExit: [
@@ -77,7 +77,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'health-facilities-in-lagos',
-                    opacity: 0.8
+                    opacity: 1
                 }
             ],
             onChapterExit: [
@@ -101,7 +101,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'road',
-                    opacity: 0.7
+                    opacity: 1
                 }
             ],
             onChapterExit: [
@@ -125,7 +125,7 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'traffic',
-                    opacity: 0.8
+                    opacity: 1
                 }
             ],
             onChapterExit: [
