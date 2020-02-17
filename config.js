@@ -114,7 +114,7 @@ var config = {
 		{
 		            id: 'Lagos',
             title: 'Traffic in Lagos',
-            image: 'https://github.com/DeeKareithi/DeeKareithi.github.io/blob/master/images/Modes%20of%20transport.png?raw=true',
+            image: 'https://github.com/DeeKareithi/DeeKareithi.github.io/blob/master/images/Modes%20of%20transport_whitebg.png?raw=true',
             description: 'Lagos is the stage with a busy city, Lagos mainland and island. With heavy traffic in most routes in Lagos, getting to a health facility in good time may not be very easy, unless one uses the route with minimum traffic. Recent technological advancements have made it possible to track routes with alot of traffic real time. Data from Google Maps highlighst the areas with the heaviest traffic in Lagos state (red highlight) and WorldBank Data shows the time of day with highest traffic in each LGA.',
             location: {
                 center: [3.395472, 6.456084],
