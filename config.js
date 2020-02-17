@@ -41,7 +41,7 @@ var config = {
             title: 'Road Accidents in Lagos (2016 to 2020)',
             image: 'https://github.com/DeeKareithi/DeeKareithi.github.io/blob/master/images/Road%20Accidents%20Lagos%20(2006-2019).png?raw=true',
 
-            description: 'Lagos State, the most economically active state of Nigeria, also has the highest population density in Nigeria(2,500/km2 (6,600/sq mi)). The state is also home to one of the most active cities in Nigeria. Over the past 4 years, road accidents in Lagos have been on the increase. THis has subsequently led to an increase in deaths in the State, as shown on the graph above.',
+            description: 'Lagos State, the most economically active state of Nigeria, also has the highest population density in Nigeria (2,500/km2 (6,600/sq mi)). The state is also home to one of the most active cities in Nigeria. Over the past 4 years, road accidents in Lagos have been on the increase. This has subsequently led to an increase in deaths in the State, as shown on the graph above.',
 			
             location: {
 				center: [3.37822, 6.54319], // starting position
@@ -91,7 +91,7 @@ var config = {
             id: 'Lagos',
             title: 'Which is the fastest way to a health facility?',
             image: 'https://github.com/DeeKareithi/DeeKareithi.github.io/blob/master/images/Modes%20of%20transport_whitebg.png?raw=true',
-            description: 'Picture this, there has been an accident. The casualties need to be rushed to the health facility. Which is the fastest way to a health facility in Lagos? Transport data from WorldBank from selected routes in Lagos shows that the longest route within Lagos is CMS-Epe: 77.2819 miles. Moreover, the data shows that the busiest route is  <b> Adeniji Adele Rd - 3rd Mainland Bridge at Osborne Outbound (101,922 traffic volume) </b>. <br> <br> The mode of trnsport with the highest traffic Lagos State is  personal cars/taxi (48%) followed by motorcycles (27%) ',
+            description: 'Picture this, there has been an accident. The casualties need to be rushed to the health facility. Which is the fastest way to a health facility in Lagos? Transport data from World Bank on selected routes in Lagos shows that the longest route within Lagos State is CMS-Epe: 77.2819 miles. Moreover, the data shows that the busiest route is  <b> Adeniji Adele Rd - 3rd Mainland Bridge at Osborne Outbound (101,922 traffic volume) </b>. <br> <br> The mode of transport with the highest traffic Lagos State is personal cars/taxi (48%) followed by motorcycles (27%). ',
             location: {
                 center: [3.339344, 6.529654],
                 zoom: 12.31,
@@ -115,7 +115,7 @@ var config = {
 		            id: 'Lagos',
             title: 'Traffic in Lagos',
             image: '',
-            description: 'Lagos is the stage with a busy city, Lagos mainland and island. With heavy traffic in most routes in Lagos, getting to a health facility in good time may not be very easy, unless one uses the route with minimum traffic. Recent technological advancements have made it possible to track routes with alot of traffic real time. Data from Google Maps highlighst the areas with the heaviest traffic in Lagos state (red highlight) and WorldBank Data shows the time of day with highest traffic in each LGA.',
+            description: 'Lagos is the stage with a busy city, Lagos mainland and island. With heavy traffic in most routes in Lagos, getting to a health facility in good time may not be very easy, unless one uses the route with minimum traffic. Recent technological advancements have made it possible to track routes with a lot of traffic in real time. Data from Google Maps highlights the areas with the heaviest traffic in Lagos state (red highlight) and World Bank Data shows the time of day with highest traffic in each LGA.',
             location: {
                 center: [3.395472, 6.456084],
                 zoom: 14.20,
@@ -141,7 +141,7 @@ var config = {
             title: 'Conclusion',
             image: '',
 
-            description: 'Average time taken to move within Lagos state  is 78.79348 (+54.70) minutes, range[10, 386] minutes. In addition, traffic data shows that there is less traffic in rural areas than urban areas like Lagos and Lekki. If one were to get an accident in LGAs like Ibeju Lekki with least traffic throughout and high population to health facility ratio (traffic of 21,424 and 3013 residents per health facility) , they would have a higher chance of accessing healthcare than people in LGAs like Agege (traffic of 133,009 and 8,700 residents per health facility).',
+            description: 'Average time taken to move within Lagos state is 78.79348 (+54.70) minutes, range[10, 386] minutes. In addition, traffic data shows that there is less traffic in rural areas than urban areas like Lagos and Lekki. If one were to get an accident in LGAs like Ibeju Lekki with least traffic throughout and high population to health facility ratio (traffic of 21,424 and 3013 residents per health facility) , they would have a higher chance of accessing healthcare than people in LGAs like Agege (traffic of 133,009 and 8,700 residents per health facility).',
 			
             location: {
 				center: [8.67739, 9.06327],
