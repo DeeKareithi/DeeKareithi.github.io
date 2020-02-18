@@ -100,13 +100,13 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'traffic',
+                    layer: 'nigeria-highway-73n68u',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                  {
-                     layer: 'traffic',
+                     layer: 'nigeria-highway-73n68u',
                      opacity: 0
                 }
             ]
@@ -124,13 +124,13 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'traffic',
+                    layer: 'nigeria-highway-73n68u',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                  {
-                     layer: 'traffic',
+                     layer: 'nigeria-highway-73n68u',
                      opacity: 0
                 }
             ]
@@ -148,13 +148,13 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'traffic',
+                    layer: 'traffic_1',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                  {
-                     layer: 'traffic',
+                     layer: 'traffic_1',
                      opacity: 0
                 }
             ]
