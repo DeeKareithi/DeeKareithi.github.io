@@ -113,7 +113,7 @@ var config = {
         },
 		{
             id: 'Lagos',
-            title: 'Which modes of transport will you find on your way14.20?',
+            title: 'Which modes of transport will you find on your way?',
             image: 'https://github.com/DeeKareithi/DeeKareithi.github.io/blob/master/images/Modes%20of%20transport_whitebg.png?raw=true',
             description: 'Analysis of World Bank transport data ta The mode of transport with the highest traffic Lagos State is  personal cars/taxi (48%) followed by motorcycles (27%). This means on your routes within Lagos State, these are the modes you are likely to come across as you find your way to the nearest health facility.',
             location: {
