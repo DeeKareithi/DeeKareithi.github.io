@@ -20,7 +20,7 @@ var config = {
 				center: [8.67739, 9.06327],
 				zoom: 5.69,
 				pitch: 0,
-				bearing: -0,
+				bearing: 0,
 
             },
             onChapterEnter: [
@@ -32,7 +32,7 @@ var config = {
             onChapterExit: [
                  {
                      layer: 'lagos_boundaries',
-                     opacity: 0
+                     opacity: 1
                 }
             ]
         },
@@ -58,7 +58,7 @@ var config = {
             onChapterExit: [
                  {
                      layer: 'lagos_boundaries',
-                     opacity: 0
+                     opacity: 1
                 }
             ]
         },
@@ -83,7 +83,7 @@ var config = {
             onChapterExit: [
                 {
                     layer: 'health-facilities-in-lagos',
-                    opacity: 0
+                    opacity: 1
                 }
             ]
         },
@@ -107,7 +107,7 @@ var config = {
             onChapterExit: [
                  {
                      layer: 'nigeria-highway-73n68u',
-                     opacity: 0
+                     opacity: 1
                 }
             ]
         },
@@ -131,7 +131,7 @@ var config = {
             onChapterExit: [
                  {
                      layer: 'nigeria-highway-73n68u',
-                     opacity: 0
+                     opacity: 1
                 }
             ]
         },
@@ -155,7 +155,7 @@ var config = {
             onChapterExit: [
                  {
                      layer: 'traffic',
-                     opacity: 0
+                     opacity: 1
                 }
             ]
         },
@@ -183,7 +183,7 @@ var config = {
             onChapterExit: [
                  {
                      layer: 'lagos_boundaries',
-                     opacity: 0
+                     opacity: 1
                 }
             ]
         },
