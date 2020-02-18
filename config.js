@@ -111,6 +111,7 @@ var config = {
                 }
             ]
         },
+		{
             id: 'Lagos',
             title: 'Which is the fastest way to a health facility?',
             image: 'https://github.com/DeeKareithi/DeeKareithi.github.io/blob/master/images/Modes%20of%20transport_whitebg.png?raw=true',
