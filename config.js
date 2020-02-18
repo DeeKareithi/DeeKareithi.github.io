@@ -94,7 +94,7 @@ var config = {
             description: 'Picture this, there has been an accident . The casualties need to be rushed to the health facility. Which is the fastest route to a health facility in Lagos? Transport data from WorldBank from selected routes in Lagos shows that the longest route within Lagos is CMS-Epe: 77.2819 miles. Moreover, the data shows that the busiest route is  <b> Adeniji Adele Rd - 3rd Mainland Bridge at Osborne Outbound (101,922 traffic volume). </b> ',
             location: {
                 center: [3.339344, 6.529654],
-                zoom: 12.31,
+                zoom: 12.89,
                 pitch: 42,
                 bearing: -43.30
             },
@@ -113,12 +113,12 @@ var config = {
         },
 		{
             id: 'Lagos',
-            title: 'Which is the fastest way to a health facility?',
+            title: 'Which modes of transport will you find on your way14.20?',
             image: 'https://github.com/DeeKareithi/DeeKareithi.github.io/blob/master/images/Modes%20of%20transport_whitebg.png?raw=true',
             description: 'Analysis of World Bank transport data ta The mode of transport with the highest traffic Lagos State is  personal cars/taxi (48%) followed by motorcycles (27%). This means on your routes within Lagos State, these are the modes you are likely to come across as you find your way to the nearest health facility.',
             location: {
                 center: [3.339344, 6.529654],
-                zoom: 12.31,
+                zoom: 12.89,
                 pitch: 42,
                 bearing: -43.30
             },
