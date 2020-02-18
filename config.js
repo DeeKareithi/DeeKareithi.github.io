@@ -141,7 +141,7 @@ var config = {
             image: '',
             description: 'With heavy traffic in most routes in Lagos, getting to a health facility (Purple dots) in good time will be difficult. Recent technological advancements have made it possible to track routes with a lot of traffic in real time. Data from Google Maps highlights the areas with the heaviest traffic in Lagos state (red highlight for busy routes) and WorldBank Data shows the time of day with highest traffic in each LGA.',
             location: {
-                center: [3.395472, 6.456084],
+                center: [3.339344, 6.529654],
                 zoom: 14.20,
                 pitch: 0,
                 bearing: 83.26
