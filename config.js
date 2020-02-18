@@ -90,8 +90,31 @@ var config = {
         {
             id: 'Lagos',
             title: 'Which is the fastest way to a health facility?',
+            image: '',
+            description: 'Picture this, there has been an accident . The casualties need to be rushed to the health facility. Which is the fastest route to a health facility in Lagos? Transport data from WorldBank from selected routes in Lagos shows that the longest route within Lagos is CMS-Epe: 77.2819 miles. Moreover, the data shows that the busiest route is  <b> Adeniji Adele Rd - 3rd Mainland Bridge at Osborne Outbound (101,922 traffic volume). </b> ',
+            location: {
+                center: [3.339344, 6.529654],
+                zoom: 12.31,
+                pitch: 42,
+                bearing: -43.30
+            },
+            onChapterEnter: [
+                {
+                    layer: 'road',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                 {
+                     layer: 'road',
+                     opacity: 0
+                }
+            ]
+        },
+            id: 'Lagos',
+            title: 'Which is the fastest way to a health facility?',
             image: 'https://github.com/DeeKareithi/DeeKareithi.github.io/blob/master/images/Modes%20of%20transport_whitebg.png?raw=true',
-            description: 'Picture this, there has been an accident . The casualties need to be rushed to the health facility. Which is the fastest way to a health facility in Lagos? Transport data from WorldBank from selected routes in Lagos shows that the longest route within Lagos is CMS-Epe: 77.2819 miles. Moreover, the data shows that the busiest route is  <b> Adeniji Adele Rd - 3rd Mainland Bridge at Osborne Outbound (101,922 traffic volume) </b>. <br> <br> The mode of transport with the highest traffic Lagos State is  personal cars/taxi (48%) followed by motorcycles (27%). ',
+            description: 'Analysis of World Bank transport data ta The mode of transport with the highest traffic Lagos State is  personal cars/taxi (48%) followed by motorcycles (27%). This means on your routes within Lagos State, these are the modes you are likely to come across as you find your way to the nearest health facility.',
             location: {
                 center: [3.339344, 6.529654],
                 zoom: 12.31,
@@ -115,7 +138,7 @@ var config = {
 		            id: 'Lagos',
             title: 'Traffic in Lagos',
             image: '',
-            description: 'With heavy traffic in most routes in Lagos, getting to a health facility in good time will be difficult. Recent technological advancements have made it possible to track routes with a lot of traffic in real time. Data from Google Maps highlight the areas with the heaviest traffic in Lagos state (red highlight) and WorldBank Data shows the time of day with highest traffic in each LGA.',
+            description: 'With heavy traffic in most routes in Lagos, getting to a health facility (orange dots) in good time will be difficult. Recent technological advancements have made it possible to track routes with a lot of traffic in real time. Data from Google Maps highlights the areas with the heaviest traffic in Lagos state (red highlight for busy routes) and WorldBank Data shows the time of day with highest traffic in each LGA.',
             location: {
                 center: [3.395472, 6.456084],
                 zoom: 14.20,
