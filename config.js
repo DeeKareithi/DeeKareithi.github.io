@@ -100,13 +100,13 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'road',
+                    layer: 'traffic',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                  {
-                     layer: 'road',
+                     layer: 'traffic',
                      opacity: 0
                 }
             ]
@@ -124,13 +124,13 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'road',
+                    layer: 'traffic',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                  {
-                     layer: 'road',
+                     layer: 'traffic',
                      opacity: 0
                 }
             ]
