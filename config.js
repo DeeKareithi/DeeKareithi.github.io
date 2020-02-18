@@ -148,13 +148,13 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'traffic_1',
+                    layer: 'traffic',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                  {
-                     layer: 'traffic_1',
+                     layer: 'traffic',
                      opacity: 0
                 }
             ]
