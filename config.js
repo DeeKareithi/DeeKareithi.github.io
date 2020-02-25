@@ -44,8 +44,8 @@ var config = {
             description: 'Lagos State, the most economically active state of Nigeria. It also has the highest population density in Nigeria(2,500/km2 (6,600/sq mi)). Over the past 4 years, road accidents in Lagos have been on the increase, subsequently this has led to an increase in deaths in the State, as shown on the graph above.',
 			
             location: {
-				center: [3.37822, 6.54319], // starting position
-				zoom: 10.0, // starting zoom
+				center: [10.967788, 9.569090],
+				zoom: 5.23,
                 pitch: 45,
                 bearing: 0
             },
@@ -62,11 +62,11 @@ var config = {
                 }
             ]
         },
-        {
+       {
             id: 'Lagos Hospitals',
             title: 'Health Facilities in Lagos compared to Population',
             image: 'https://github.com/DeeKareithi/DeeKareithi.github.io/blob/master/images/health_facility_to_popolation_ratio.png?raw=true',
-            description: 'After getting into an accident in Lagos, we ask ourselves, what are the closest health facilities that those injured can access? What Options do they have? Lagos state has a total of 1,534 health facilities, according to data collected by Grid3. The table above shows the population per health facility in the LGAs.'
+            description: 'After getting into an accident in Lagos, we ask ourselves, what are the closest health facilities that those injured can access? What Options do they have? Lagos state has a total of 1,534 health facilities, with varying number per state according to data collected by Grid3. The table above shows the population per health facility in the LGAs, and the map shows the conentration of health facilities in each LGA.'
 			,
             location: {
                 center: [3.323377, 6.507874],
@@ -76,13 +76,13 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'health-facilities-in-lagos',
+                    layer: 'health_facilities_heatmap',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'health-facilities-in-lagos',
+                    layer: 'health_facilities_heatmap',
                     opacity: 1
                 }
             ]
@@ -95,9 +95,9 @@ var config = {
 			,
             location: {
                 center: [3.323377, 6.507874],
-                zoom: 12.74,
+                zoom: 9.01,
                 pitch: 45,
-                bearing: -18.31
+                bearing: -78.88
             },
             onChapterEnter: [
                 {
@@ -146,7 +146,7 @@ var config = {
                 center: [3.339344, 6.529654],
                 zoom: 12.89,
                 pitch: 42,
-                bearing: -43.30
+                bearing: -54.30
             },
             onChapterEnter: [
                 {
@@ -198,13 +198,13 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'traffic',
+                    layer: 'traffic_1',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                  {
-                     layer: 'traffic',
+                     layer: 'traffic_1',
                      opacity: 1
                 }
             ]
@@ -216,22 +216,21 @@ var config = {
             image: '',
 
             description: 'Average time taken to move within Lagos state  is 78.79348 (+54.70) minutes, range[10, 386] minutes. If one were to get an accident in LGAs like Ibeju Lekki with least traffic throughout and high population to health facility ratio (traffic of 21,424 and 3013 residents per health facility) , they would have a higher chance of accessing healthcare than people in LGAs like Agege (traffic of 133,009 and 8,700 residents per health facility).',
-		            location: {
-				center: [10.967788, 9.569090],
-				zoom: 5.23,
-				pitch: 0,
-				bearing: 0,
-
+            location: {
+                center: [3.339344, 6.529654],
+                zoom: 14.20,
+                pitch: 0,
+                bearing: 83.26
             },
             onChapterEnter: [
                 {
-                    layer: 'nigeria_layer',
+                    layer: 'traffic',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                  {
-                     layer: 'nigeria_layer',
+                     layer: 'traffic',
                      opacity: 1
                 }
             ]
