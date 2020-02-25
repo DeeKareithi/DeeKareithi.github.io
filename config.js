@@ -14,24 +14,24 @@ var config = {
             title: 'The Big Question',
             image: '',
 
-            description: 'Access to healthcare is one of UN SGDs. In Africa, access to healthcare is one of the many challenges of health systems of many countries.  Road accidents are one of the most frequent cases in the emergency rooms in hospitals. Nigeria is no different.  In this showcase, we ask "How easy is it to access healthcare after getting into an accident in Lagos?". We explore the road accident deaths in Lagos, health facilities in the state, routes that are closest to the health facilities and the fastest ways to access the health facilities in the case of an accident.',
+            description: 'Access to healthcare is one of UN SGDs. In Africa, access to healthcare is one of the many challenges of health systems of many countries.  Road accidents are one of the most frequent cases in the emergency rooms in hospitals in most parts of Nigeria (Ogunmola et al, 2013). Nigeria is no different.  In this showcase, we ask "How easy is it to access healthcare after getting into an accident in Lagos?". We explore the road accident deaths in Lagos, health facilities in the state, routes that are closest to the health facilities and the fastest ways to access the health facilities in the case of an accident.',
 			
             location: {
-				center: [8.67739, 9.06327],
-				zoom: 5.69,
+				center: [10.967788, 9.569090],
+				zoom: 5.23,
 				pitch: 0,
 				bearing: 0,
 
             },
             onChapterEnter: [
                 {
-                    layer: 'lagos_boundaries',
+                    layer: 'nigeria_layer',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                  {
-                     layer: 'lagos_boundaries',
+                     layer: 'nigeria_layer',
                      opacity: 1
                 }
             ]
@@ -64,9 +64,59 @@ var config = {
         },
         {
             id: 'Lagos Hospitals',
-            title: 'Health Facilities in Lagos',
+            title: 'Health Facilities in Lagos compared to Population',
+            image: 'https://github.com/DeeKareithi/DeeKareithi.github.io/blob/master/images/health_facility_to_popolation_ratio.png?raw=true',
+            description: 'After getting into an accident in Lagos, we ask ourselves, what are the closest health facilities that those injured can access? What Options do they have? Lagos state has a total of 1,534 health facilities, according to data collected by Grid3. The table above shows the population per health facility in the LGAs.'
+			,
+            location: {
+                center: [3.323377, 6.507874],
+                zoom: 12.74,
+                pitch: 45,
+                bearing: -18.31
+            },
+            onChapterEnter: [
+                {
+                    layer: 'health-facilities-in-lagos',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'health-facilities-in-lagos',
+                    opacity: 1
+                }
+            ]
+        },
+        {
+            id: 'Lagos Hospitals',
+            title: 'Health Facilities Types in Lagos',
             image: 'https://github.com/DeeKareithi/DeeKareithi.github.io/blob/master/images/Health%20Facilities%20in%20Lagos.png?raw=true',
-            description: 'After getting into an accident in Lagos, we ask ourselves, what are the closest health facilities that those injured can access? What Options do they have? Lagos state has a total of 1,438 human health facilities, according to data collected by Grid3. Most of these are private owned clinics as shown above.'
+            description: 'Most of these health facilities in Lagos are private owned clinics as shown above and in the map. A close look at the .'
+			,
+            location: {
+                center: [3.323377, 6.507874],
+                zoom: 12.74,
+                pitch: 45,
+                bearing: -18.31
+            },
+            onChapterEnter: [
+                {
+                    layer: 'health-facilities-in-lagos',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'health-facilities-in-lagos',
+                    opacity: 1
+                }
+            ]
+        },
+        {
+            id: 'Lagos Hospitals',
+            title: 'Health Facilities Capacity in Lagos',
+            image: '',
+            description: 'In 2019, the President of the Nigeria Medical Association (NMA) reported that with at least 3,000 doctors graduating yearly, it would take about 25 years to produce adequate numbers of doctors to cater for the country’s population. It was also reported that a doctor caters for about 10,000 to 22,000 patients, instead of the World Health Organisation recommendation of a doctor to 600 patients.'
 			,
             location: {
                 center: [3.323377, 6.507874],
@@ -136,7 +186,7 @@ var config = {
             ]
         },
 		{
-		            id: 'Lagos',
+		    id: 'Lagos',
             title: 'Traffic in Lagos',
             image: '',
             description: 'With heavy traffic in most routes in Lagos, getting to a health facility (Purple dots) in good time will be difficult. Recent technological advancements have made it possible to track routes with a lot of traffic in real time. Data from Google Maps highlights the areas with the heaviest traffic in Lagos state (red highlight for busy routes) and WorldBank Data shows the time of day with highest traffic in each LGA.',
@@ -166,27 +216,25 @@ var config = {
             image: '',
 
             description: 'Average time taken to move within Lagos state  is 78.79348 (+54.70) minutes, range[10, 386] minutes. If one were to get an accident in LGAs like Ibeju Lekki with least traffic throughout and high population to health facility ratio (traffic of 21,424 and 3013 residents per health facility) , they would have a higher chance of accessing healthcare than people in LGAs like Agege (traffic of 133,009 and 8,700 residents per health facility).',
-			
-            location: {
-				center: [8.67739, 9.06327],
-				zoom: 5.69,
+		            location: {
+				center: [10.967788, 9.569090],
+				zoom: 5.23,
 				pitch: 0,
-				bearing: -0,
+				bearing: 0,
 
             },
             onChapterEnter: [
                 {
-                    layer: 'lagos_boundaries',
+                    layer: 'nigeria_layer',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                  {
-                     layer: 'lagos_boundaries',
+                     layer: 'nigeria_layer',
                      opacity: 1
                 }
             ]
         },
-
     ]
 };
