@@ -91,7 +91,7 @@ var config = {
             id: 'Lagos Hospitals',
             title: 'Health Facilities Types in Lagos',
             image: 'https://github.com/DeeKareithi/DeeKareithi.github.io/blob/master/images/Health%20Facilities%20in%20Lagos.png?raw=true',
-            description: 'Most of these health facilities in Lagos are private owned clinics as shown above and in the map. A close look at the .'
+            description: 'A close look at the ownership of these health facilities, only 16% are Public/Government wwned (red tots) and majority (69%) are private owned (purple dots).'
 			,
             location: {
                 center: [3.323377, 6.507874],
